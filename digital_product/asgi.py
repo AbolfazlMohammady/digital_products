@@ -1,5 +1,5 @@
 """
-ASGI config for dijital_products project.
+ASGI config for digital_product project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dijital_products.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'digital_product.settings')
 
 application = get_asgi_application()

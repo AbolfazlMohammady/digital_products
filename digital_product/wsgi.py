@@ -1,5 +1,5 @@
 """
-WSGI config for dijital_products project.
+WSGI config for digital_product project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dijital_products.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'digital_product.settings')
 
 application = get_wsgi_application()
